@@ -9,6 +9,7 @@
     "clean": "rimraf .nuxt .output node_modules"
   },
   "devDependencies": {
+    "@nuxt/devtools": "0.8.2",
     "nuxt": "3.6.5"
   }
 }

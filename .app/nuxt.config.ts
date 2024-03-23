@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  devtools:{enabled: true},
   extends: [
     /**
      * This extends the base Tairo layer.
