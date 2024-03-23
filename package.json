@@ -19,7 +19,7 @@
     "lint:prettier": "prettier --check \"./**/*.(ts|vue|css|md)\"",
     "lint:prettier:fix": "prettier --write \"./**/*.(ts|vue|css|md)\"",
     "lint:eslint": "eslint -c .eslintrc.cjs --ext .vue,.ts .",
-    "lint:eslint:fix": "eslint -c .eslintrc.cjs --fix --ext .vue,.ts .",
+    "lint:eslint:fix": "eslint -c .eslintrc.cjs --fix --ext .vue,.ts ."
   },
   "devDependencies": {
     "@iconify/json": "2.2.113",
@@ -63,6 +63,6 @@
         "@unhead/vue",
         "webpack"
       ]
-    },
+    }
   }
 }
