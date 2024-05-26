@@ -1,5 +1,8 @@
 export default defineNuxtConfig({
-  devtools:{enabled: true},
+  devtools: { enabled: true },
+  build: {
+    analyze: true,
+  },
   extends: [
     /**
      * This extends the base Tairo layer.
@@ -17,6 +20,16 @@ export default defineNuxtConfig({
     '../layers/tairo-layout-sidebar',
     '../layers/tairo-layout-collapse',
     '../layers/tairo-layout-topnav',
-    '../layers/tairo'
-  ]
+    '../layers/tairo',
+  ],
+  nitro: {
+    compressPublicAssets: true,
+    minify: true,
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 })
